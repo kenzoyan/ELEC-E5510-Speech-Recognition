@@ -1,0 +1,71 @@
+3/22Q1:
+3/22
+1/22
+3/22
+
+Q2:
+the     
+box     
+is      
+in      
+bag     
+</s>    
+it      
+a       
+on    
+
+2-gram
+is in 2/3 is the 1/3    rest 0/3
+3-gram
+in the bag 1/1   rest 0/1
+
+Q3:
+is in 12/22  /s is 1/22
+
+0 probs has change to no-zero number for smoothing, even the situations 
+didn't showup.
+
+Q4:
+a they means the probs of the whoel sentences show up in log form.
+b last one highest prob
+c <s> is </s>
+
+Q5:
+1: 0 zeroprobs, logprob= -264042 ppl= 3410.81 ppl1= 11960.4  
+2: 0 zeroprobs, logprob= -237930 ppl= 1525.72 ppl1= 4725.81
+3: 0 zeroprobs, logprob= -235817 ppl= 1429.6 ppl1= 4383.86
+
+b)
+27097/91849=0.295
+
+Q6:
+1: 0 zeroprobs, logprob= -662489 ppl= 2388.84 ppl1= 3626.23
+2: 0 zeroprobs, logprob= -503229 ppl= 368.196 ppl1= 505.558
+3: 0 zeroprobs, logprob= -465729 ppl= 237.06 ppl1= 317.899
+
+b) oov    0/186121
+
+
+part2:
+
+FFNN
+seed= cat likes
+eating 0.999
+by 0.50
+herself 0.43
+</s> 0.98
+
+RNN:
+seed= a girl
+
+likes tensor(0.7446)
+eating tensor(0.9364)
+by tensor(0.7516)
+herself tensor(0.4646)
+</s> tensor(0.9991)
+
+
+
+
+
+
